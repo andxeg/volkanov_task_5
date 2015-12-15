@@ -1,0 +1,16 @@
+<alg	
+	pmax="4" 
+	alpha1="0.1"
+	alpha2="0.5"
+	beta="1"
+	ro="0.9"
+	Q="0.01"
+	a="1"
+	b="10"
+	pheromone0="1"
+	localSearchStep="0.0001"
+	affinity="0.01"
+	antCounts="50"
+	maxIter="300"
+	dcMaxIterWithoutChange="100">
+</alg>

@@ -1,10 +1,11 @@
 import xml.dom.minidom, random, math
 
 class Component:
-    def __init__(self, num, rel=0.0, cost=0):
+    def __init__(self, num, rel=0.0, cost=0, weight=0):
         self.num = num
         self.rel = rel
         self.cost = cost
+        self.weight = weight
 
     def generateRandom(self, param):
         self.rel = random.uniform(param["minrel"], param["maxrel"])
@@ -108,10 +109,14 @@ class ModConfig:
                 num = int(child.getAttribute("num"))
                 rel = float(child.getAttribute("rel"))
                 cost = int(child.getAttribute("cost"))
-                if child.nodeName == "sw":
-                    self.sw.append(Component(num,rel,cost))
+                if child.hasAttribute("weight"):
+                    weight = int(child.getAttribute("weight"))
                 else:
-                    self.hw.append(Component(num,rel,cost))
+                    weight = 1
+                if child.nodeName == "sw":
+                    self.sw.append(Component(num,rel,cost, weight))
+                else:
+                    self.hw.append(Component(num,rel,cost, weight))
         '''[!!!] Sort lists in order not to search elements by field 'num',
         but to refer them by index.'''
         self.sw.sort(key=lambda x: x.num)
@@ -237,6 +242,12 @@ class SysConfig:
             if root.tagName == "system":
                 if root.hasAttribute("limitcost"):
                     self.limitcost = int(root.getAttribute("limitcost"))
+                #Check limitweight attribute
+                if root.hasAttribute("limitweight"):
+                    self.limitweight = int(root.getAttribute("limitweight"))
+                else:
+                    self.limitweight = 1000
+
                 for node in root.childNodes:
                     if isinstance(node, xml.dom.minidom.Text):
                         continue
