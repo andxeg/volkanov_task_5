@@ -1,0 +1,159 @@
+<system name="s" limitcost="1000">
+	
+		<module num="1" qrv="0.99" qd="0.98" qall="0.97" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="20"/>
+		<sw num="1" rel="0.8" cost="10"/>
+		<sw num="2" rel="0.87" cost="23"/>
+		<sw num="3" rel="0.91" cost="27"/>
+		<hw num="0" rel="0.95" cost="25"/>
+		<hw num="1" rel="0.85" cost="15"/>
+		<hw num="2" rel="0.93" cost="22"/>
+		<time swnum="0" hwnum="0" t="1"/>
+		<time swnum="0" hwnum="1" t="2"/>
+		<time swnum="0" hwnum="2" t="2"/>
+		<time swnum="1" hwnum="0" t="3"/>
+		<time swnum="1" hwnum="1" t="4"/>
+		<time swnum="1" hwnum="2" t="2"/>
+		<time swnum="2" hwnum="0" t="5"/>
+		<time swnum="2" hwnum="1" t="6"/>
+		<time swnum="2" hwnum="2" t="2"/>
+		<time swnum="3" hwnum="0" t="5"/>
+		<time swnum="3" hwnum="1" t="6"/>
+		<time swnum="3" hwnum="2" t="2"/>
+	</module>
+	<module num="0" qrv="0.99" qd="0.98" qall="0.97" tvote="5" ttest="2" trecov="10" limittime="10">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="20"/>
+		<sw num="1" rel="0.8" cost="10"/>
+		<sw num="2" rel="0.87" cost="23"/>
+		<sw num="3" rel="0.91" cost="27"/>
+		<hw num="0" rel="0.95" cost="25"/>
+		<hw num="1" rel="0.85" cost="15"/>
+		<hw num="2" rel="0.93" cost="22"/>
+		<time swnum="0" hwnum="0" t="1"/>
+		<time swnum="0" hwnum="1" t="2"/>
+		<time swnum="0" hwnum="2" t="2"/>
+		<time swnum="1" hwnum="0" t="3"/>
+		<time swnum="1" hwnum="1" t="4"/>
+		<time swnum="1" hwnum="2" t="2"/>
+		<time swnum="2" hwnum="0" t="5"/>
+		<time swnum="2" hwnum="1" t="6"/>
+		<time swnum="2" hwnum="2" t="2"/>
+		<time swnum="3" hwnum="0" t="5"/>
+		<time swnum="3" hwnum="1" t="6"/>
+		<time swnum="3" hwnum="2" t="2"/>
+	</module>
+	<module num="2" qrv="0.99" qd="0.98" qall="0.97" tvote="5" ttest="2" trecov="10" limittime="30">
+		<tool name="none"/>	
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="20"/>
+		<sw num="1" rel="0.8" cost="10"/>
+		<sw num="2" rel="0.87" cost="23"/>
+		<sw num="3" rel="0.91" cost="27"/>
+		<hw num="0" rel="0.95" cost="25"/>
+		<hw num="1" rel="0.85" cost="15"/>
+		<hw num="2" rel="0.93" cost="22"/>
+		<time swnum="0" hwnum="0" t="1"/>
+		<time swnum="0" hwnum="1" t="2"/>
+		<time swnum="0" hwnum="2" t="2"/>
+		<time swnum="1" hwnum="0" t="3"/>
+		<time swnum="1" hwnum="1" t="4"/>
+		<time swnum="1" hwnum="2" t="2"/>
+		<time swnum="2" hwnum="0" t="5"/>
+		<time swnum="2" hwnum="1" t="6"/>
+		<time swnum="2" hwnum="2" t="2"/>
+		<time swnum="3" hwnum="0" t="5"/>
+		<time swnum="3" hwnum="1" t="6"/>
+		<time swnum="3" hwnum="2" t="2"/>
+	</module>
+	<module num="3" qrv="0.99" qd="0.98" qall="0.97" tvote="5" ttest="2" trecov="10" limittime="40">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="20"/>
+		<sw num="1" rel="0.8" cost="10"/>
+		<sw num="2" rel="0.87" cost="23"/>
+		<sw num="3" rel="0.91" cost="27"/>
+		<hw num="0" rel="0.95" cost="25"/>
+		<hw num="1" rel="0.85" cost="15"/>
+		<hw num="2" rel="0.93" cost="22"/>
+		<time swnum="0" hwnum="0" t="1"/>
+		<time swnum="0" hwnum="1" t="2"/>
+		<time swnum="0" hwnum="2" t="2"/>
+		<time swnum="1" hwnum="0" t="3"/>
+		<time swnum="1" hwnum="1" t="4"/>
+		<time swnum="1" hwnum="2" t="2"/>
+		<time swnum="2" hwnum="0" t="5"/>
+		<time swnum="2" hwnum="1" t="6"/>
+		<time swnum="2" hwnum="2" t="2"/>
+		<time swnum="3" hwnum="0" t="5"/>
+		<time swnum="3" hwnum="1" t="6"/>
+		<time swnum="3" hwnum="2" t="2"/>
+	</module>
+	<module num="4" qrv="0.99" qd="0.98" qall="0.97" tvote="5" ttest="2" trecov="10" limittime="50">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="20"/>
+		<sw num="1" rel="0.8" cost="10"/>
+		<sw num="2" rel="0.87" cost="23"/>
+		<sw num="3" rel="0.91" cost="27"/>
+		<hw num="0" rel="0.95" cost="25"/>
+		<hw num="1" rel="0.85" cost="15"/>
+		<hw num="2" rel="0.93" cost="22"/>
+		<time swnum="0" hwnum="0" t="1"/>
+		<time swnum="0" hwnum="1" t="2"/>
+		<time swnum="0" hwnum="2" t="2"/>
+		<time swnum="1" hwnum="0" t="3"/>
+		<time swnum="1" hwnum="1" t="4"/>
+		<time swnum="1" hwnum="2" t="2"/>
+		<time swnum="2" hwnum="0" t="5"/>
+		<time swnum="2" hwnum="1" t="6"/>
+		<time swnum="2" hwnum="2" t="2"/>
+		<time swnum="3" hwnum="0" t="5"/>
+		<time swnum="3" hwnum="1" t="6"/>
+		<time swnum="3" hwnum="2" t="2"/>
+	</module>
+	<module num="5" qrv="0.99" qd="0.98" qall="0.97" tvote="5" ttest="2" trecov="10" limittime="60">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="20"/>
+		<sw num="1" rel="0.8" cost="10"/>
+		<sw num="2" rel="0.87" cost="23"/>
+		<sw num="3" rel="0.91" cost="27"/>
+		<hw num="0" rel="0.95" cost="25"/>
+		<hw num="1" rel="0.85" cost="15"/>
+		<hw num="2" rel="0.93" cost="22"/>
+		<time swnum="0" hwnum="0" t="1"/>
+		<time swnum="0" hwnum="1" t="2"/>
+		<time swnum="0" hwnum="2" t="2"/>
+		<time swnum="1" hwnum="0" t="3"/>
+		<time swnum="1" hwnum="1" t="4"/>
+		<time swnum="1" hwnum="2" t="2"/>
+		<time swnum="2" hwnum="0" t="5"/>
+		<time swnum="2" hwnum="1" t="6"/>
+		<time swnum="2" hwnum="2" t="2"/>
+		<time swnum="3" hwnum="0" t="5"/>
+		<time swnum="3" hwnum="1" t="6"/>
+		<time swnum="3" hwnum="2" t="2"/>
+	</module>
+	<link src="0" dst="1" vol="1"/>
+	<link src="0" dst="2" vol="2"/>
+	<link src="1" dst="3" vol="3"/>
+	<link src="2" dst="3" vol="1"/>
+	<link src="3" dst="4" vol="5"/>
+	<link src="4" dst="5" vol="2"/>
+</system>

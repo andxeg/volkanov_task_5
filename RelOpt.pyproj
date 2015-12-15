@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{d0558d5e-3473-4cb6-9555-def830bdf529}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>RelOpt.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>RelOpt</Name>
+    <RootNamespace>RelOpt</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Common\AlgConfig.py" />
+    <Compile Include="Common\Algorithm.py" />
+    <Compile Include="Common\Constraints.py" />
+    <Compile Include="Common\Core.py" />
+    <Compile Include="Common\Module.py" />
+    <Compile Include="Common\Statistics.py" />
+    <Compile Include="Common\System.py" />
+    <Compile Include="Common\SysConfig.py" />
+    <Compile Include="Common\__init__.py" />
+    <Compile Include="GA\GA.py" />
+    <Compile Include="GA\GAConfig.py" />
+    <Compile Include="GA\HGA.py" />
+    <Compile Include="GA\__init__.py" />
+    <Compile Include="GUI\ConfigDialog.py" />
+    <Compile Include="GUI\MainWindow.py" />
+    <Compile Include="GUI\__init__.py" />
+    <Compile Include="RelOpt.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common" />
+    <Folder Include="GA\" />
+    <Folder Include="GUI\" />
+    <Folder Include="GUI\Windows\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>

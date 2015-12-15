@@ -1,0 +1,6 @@
+<alg type="hga" execnum="10" se="False" checktime="True" metamodel="False" maxiter="30" popsize="30">
+	<par name="crosspercent" min="0.4" norm="0.6" max="0.8"/>
+	<par name="crossprob" min="0.4" norm="0.6" max="0.8"/>
+	<par name="mutpercent" min="0.4" norm="0.6" max="0.8"/>
+	<par name="mutprob" min="0.4" norm="0.6" max="0.8"/>
+</alg>

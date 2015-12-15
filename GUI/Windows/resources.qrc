@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="pics">
+    <file>pics/save.png</file>
+    <file>pics/chart_line.png</file>
+  </qresource>
+</RCC>
