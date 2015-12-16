@@ -36,7 +36,7 @@
 
 		<sw num="0" rel="0.95" cost="2" weight="8"/>
 		<sw num="1" rel="0.94" cost="1" weight="10"/>
-		<sw num="2" rel="0.87" cost="1" weight="9"/>
+		<sw num="2" rel="0.93" cost="1" weight="9"/>
 
 		<hw num="0" rel="0.95" cost="25"/>
 		<hw num="1" rel="0.85" cost="15"/>
