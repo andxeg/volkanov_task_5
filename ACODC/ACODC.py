@@ -12,10 +12,10 @@ class Ant:
     def __init__(self):
         self.subsystemNumbers = len(Module.conf.modules)
         #EDGES_WHERE_WERE_ANT
-        #[ [ver1 ... verk ]  1st subsystem; sublist.length - amount of the parallel elements
+        #[ [ver1 ... verk ] ->  1st subsystem; sublist.length - amount of the parallel elements
         #                       in this subsystem. veri - their versions
         # ...
-        #  []  Nst subsystem
+        #  [] -> Nst subsystem
         # ]
         self.path = []
 
@@ -179,13 +179,13 @@ class ACODC(Algorithm):
             currentRel = ant.computeRel()
             if (currentRel >= self.currentSolution[1] or
                 0 <= ((self.currentSolution[1] - currentRel) / self.currentSolution[1]) <= Algorithm.algconf.affinity):
-                self._localSearch(ant)
+                #ant -> CANNOT_BE_MODIFIED_AS_IT_IS_USED_IN_THE_CALCULATION_OF_PHEROMONE_UPDATE
+                solution = self._localSearch(ant)
             else:
                 continue
 
-            newPath = copy.deepcopy(ant.path)
             newDecision = Ant()
-            newDecision.path = newPath
+            newDecision.path = copy.deepcopy(solution.path)
             #Update_the_best_solution
             self.currentSolution[0] = newDecision
             self.currentSolution[1] = newDecision.computeRel()
@@ -210,7 +210,7 @@ class ACODC(Algorithm):
                 p = random.random()
                 for i in range(len(probs) - 1):
                     if p[i] <= p <= p[i+1]:
-                        elements.append(i)#elements counted from 0 to subsystem.versionsCount - 1
+                        elements.append(i)#elements counted from (0) to (subsystem.versionsCount - 1)
                         break
 
             ant.path.append(elements)
@@ -218,31 +218,67 @@ class ACODC(Algorithm):
     def _localSearch(self, ant):
         maxIterWithoutChanges = Algorithm.algconf.dcMaxIterWithoutChange
         iter = 0
-
-        newPath = copy.deepcopy(ant.path)
-        initialSolution = Ant()
-        initialSolution.path = newPath
-        L = initialSolution.computeRel()
+        #BEST_SOLUTION
+        bestSolution = Ant()
+        bestSolution.path = copy.deepcopy(ant.path)
+        #INITIAL_SOLUTION
+        solution = Ant()
+        solution.path = copy.deepcopy(ant.path)
+        #INITIAL_RELIABILITY
+        L = solution.computeRel()
+        #STEP_OF_DEGRADED_CEILING_ALGORITHM
         deltaL = Algorithm.algconf.localSearchStep
+        #NUMBER_OF_CHANGES_SUBSYSTEM
         count = 1
         while iter < maxIterWithoutChanges:
-            #FIND_NEIGHBORHOOD
+        #FIND_NEIGHBORHOOD
+            #CHOOSE_THE_NUMBER_OF_SUBSYSTEMS_WHICH_WE_WILL_CHANGE
             changeCount = random.randint(1, len(Module.conf.modules))
             for i in range(changeCount):
+                #CHOOSE_RANDOM_SUBSYSTEM
                 changeSubsystem = random.randint(0, len(Module.conf.modules) - 1)
+                subsystem = solution.path[changeSubsystem]
+                #CHOOSE_RANDOM_ELEMENT_IN_CURRENT_SUBSYSTEM
+                availableVersions = len(Module.conf.modules[changeSubsystem].sw)
+                oldElement = random.randint(0, len(subsystem) - 1)
+                newElement = self._getNewElement(availableVersions, subsystem[oldElement])
+                #MODIFY_ELEMENT
+                subsystem[oldElement] = newElement
+                i += 1
+
+            if not solution.checkConstraints(Module.conf.limitcost, Module.conf.limitweight):
+                #not increment iter in this case BECAUSE:
+                #not increment in the following case -> when solution is better than bestSolution
+                #else increment
+                continue
 
 
-            #CHECK_FESIBLE_OR_NOT
-
-            #CHECK_RELIABILITY
 
 
 
-            if prev solution reliability == current solution reliability:
-                iter += 1
-            else:
-                iter = 0
+        #CHECK_FESIBLE_OR_NOT
 
+        #CHECK_RELIABILITY
+
+
+            # if prev solution reliability == current solution reliability:
+            #     iter += 1
+            # else:
+            #     iter = 0
+
+        return solution
+
+    def _getNewElement(self, availableVersions, oldElement):
+        maxIterations = 1000
+        newElement = 0
+        i = 0
+        while i < maxIterations:
+            p = random.randint(0, availableVersions - 1)
+            if p != oldElement:
+                newElement = p
+                break
+            i += 1
+        return newElement
 
     def _updatePheromones(self):
         pass
