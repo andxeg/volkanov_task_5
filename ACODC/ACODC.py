@@ -118,6 +118,8 @@ class ACODC(Algorithm):
         self._createAnts()
         self._buildSeriesParallelStructure()
         self._updatePheromones()
+        self.currentIter += 1
+
 
     def Run(self):
         Algorithm.timecounts = 0
@@ -177,6 +179,10 @@ class ACODC(Algorithm):
                 continue
 
             currentRel = ant.computeRel()
+
+            #print "After global search ", currentRel
+            #ant.printDecision()
+
             if (currentRel >= self.currentSolution[1] or
                 0 <= ((self.currentSolution[1] - currentRel) / self.currentSolution[1]) <= Algorithm.algconf.affinity):
                 #ant -> CANNOT_BE_MODIFIED_AS_IT_IS_USED_IN_THE_CALCULATION_OF_PHEROMONE_UPDATE
@@ -192,35 +198,50 @@ class ACODC(Algorithm):
 
 
     def _globalSearch(self, ant):
+        #print "_globalSearch system SIZE -> ", len(self.system)
         for subsystem in self.system:
             #CHOOSE_FIRST_EDGE
-            parallelCount = 1
-            probs = subsystem.probabilitiesFirstTypeEdges().append(0.0).sort()
+            parallelCount = subsystem.pmax
+            probs = subsystem.probabilitiesFirstTypeEdges()
+            probs.append(0.0)
+            probs.sort()
+            print "First edges probabilities", probs
             p = random.random()
+            #print "random ->", p
             for i in range(len(probs) - 1):
-                if p[i] <= p <= p[i+1]:
+                #print "choose parallel"
+                if probs[i] <= p <= probs[i+1]:
                     parallelCount = i + 1
                     break
 
+            #print "Parallel count -> ", parallelCount
             #NOW_WE_KNOW_HOW_MUCH_PARALLEL_ELEMENTS_IN_CURRENT_SUBSYSTEM
             #THEN_WE_MUST_CHOOSE_THIS_ELEMENTS
-            probs = subsystem.probabilitiesSecondTypeEdges(parallelCount).append(0.0).sort()
+            probs = subsystem.probabilitiesSecondTypeEdges(parallelCount)
+            probs.append(0.0)
+            probs.sort()
+            #print "Second edges probabilities", probs
             elements = []
             for element in range(parallelCount):
                 p = random.random()
-                for i in range(len(probs) - 1):
-                    if p[i] <= p <= p[i+1]:
-                        elements.append(i)#elements counted from (0) to (subsystem.versionsCount - 1)
+                #print "random -> ", p
+                el = subsystem.versionsCount - 1
+                for i in range(0, len(probs) - 1):
+                    #print "choose element"
+                    if probs[i] <= p <= probs[i+1]:
+                        #elements counted from (0) to (subsystem.versionsCount - 1)
+                        el = i
+                        #print "Added element ->", i
                         break
+                elements.append(el)
 
             ant.path.append(elements)
+        #print "End in _globalSearch"
+        #ant.printDecision()
 
     def _localSearch(self, ant):
         maxIterWithoutChanges = Algorithm.algconf.dcMaxIterWithoutChange
-        iter = 0
-        #BEST_SOLUTION
-        bestSolution = Ant()
-        bestSolution.path = copy.deepcopy(ant.path)
+        curriter = 0
         #INITIAL_SOLUTION
         solution = Ant()
         solution.path = copy.deepcopy(ant.path)
@@ -228,57 +249,91 @@ class ACODC(Algorithm):
         L = solution.computeRel()
         #STEP_OF_DEGRADED_CEILING_ALGORITHM
         deltaL = Algorithm.algconf.localSearchStep
-        #NUMBER_OF_CHANGES_SUBSYSTEM
-        count = 1
-        while iter < maxIterWithoutChanges:
+
+        while curriter < maxIterWithoutChanges:
         #FIND_NEIGHBORHOOD
+            neighborhood = Ant()
+            neighborhood.path = copy.deepcopy(solution.path)
             #CHOOSE_THE_NUMBER_OF_SUBSYSTEMS_WHICH_WE_WILL_CHANGE
             changeCount = random.randint(1, len(Module.conf.modules))
             for i in range(changeCount):
                 #CHOOSE_RANDOM_SUBSYSTEM
                 changeSubsystem = random.randint(0, len(Module.conf.modules) - 1)
-                subsystem = solution.path[changeSubsystem]
+                subsystem = neighborhood.path[changeSubsystem]
                 #CHOOSE_RANDOM_ELEMENT_IN_CURRENT_SUBSYSTEM
                 availableVersions = len(Module.conf.modules[changeSubsystem].sw)
                 oldElement = random.randint(0, len(subsystem) - 1)
                 newElement = self._getNewElement(availableVersions, subsystem[oldElement])
-                #MODIFY_ELEMENT
+                #MODIFY_SUBSYSTEM
                 subsystem[oldElement] = newElement
-                i += 1
 
-            if not solution.checkConstraints(Module.conf.limitcost, Module.conf.limitweight):
-                #not increment iter in this case BECAUSE:
-                #not increment in the following case -> when solution is better than bestSolution
+            #NOW_WE_OBTAIN_NEIGHBORHOOD
+            if not neighborhood.checkConstraints(Module.conf.limitcost, Module.conf.limitweight):
+                #not increment iter in this case, because we didn't obtain feasible neighborhood
+                #set counter in 0 in the following case -> when neighborhood is better than solution
                 #else increment
                 continue
 
-
-
-
-
-        #CHECK_FESIBLE_OR_NOT
-
-        #CHECK_RELIABILITY
-
-
-            # if prev solution reliability == current solution reliability:
-            #     iter += 1
-            # else:
-            #     iter = 0
+            newRel = neighborhood.computeRel()
+            if (newRel >= solution.computeRel() or newRel >= L):
+                solution.path = copy.deepcopy(neighborhood.path)
+                L += deltaL
+                curriter = 0
+            else:
+                curriter += 1
+                continue
 
         return solution
 
     def _getNewElement(self, availableVersions, oldElement):
         maxIterations = 1000
         newElement = 0
-        i = 0
-        while i < maxIterations:
+        for i in range(maxIterations):
             p = random.randint(0, availableVersions - 1)
             if p != oldElement:
                 newElement = p
                 break
-            i += 1
         return newElement
 
     def _updatePheromones(self):
-        pass
+        #RUN_THROUGH_ALL_ANTS
+        for ant in self.ants:
+            #RUN_THROUGH_ALL_SUBSYSTEM
+            for i in range(len(ant.path)):
+                subsystem = ant.path[i]
+                parallelElements = len(subsystem)
+                #MODIFY_PHEROMONE_ON_THE_FIRST_TYPE_EDGE
+                delta = Algorithm.algconf.Q * self._penalty(ant) * float(ant.computeRel())
+                #print "Update pheromones OLD -> ", self.system[i].edges[0][parallelElements - 1]
+
+                self.system[i].edges[0][parallelElements - 1] = \
+                    self.system[i].edges[0][parallelElements - 1] * \
+                    Algorithm.algconf.ro + delta
+
+                #print "Update pheromones NEW -> ", self.system[i].edges[0][parallelElements - 1]
+
+                #MODIFY_PHEROMONE_ON_THE_SECOND_TYPE_EDGES
+                #SUBSYSTEM_KEEP_ALL_SECOND_TYPE_EDGES_WHERE_ANT_WAS
+                for j in subsystem:
+                    self.system[i].edges[parallelElements][j] = \
+                        self.system[i].edges[parallelElements][j] * \
+                        Algorithm.algconf.ro + delta
+
+
+    def _penalty(self, ant):
+        cost = ant.computeCost()
+        weight = ant.computeWeight()
+        if cost > Module.conf.limitcost and weight > Module.conf.limitweight:
+            return pow(float(Module.conf.limitcost)/cost, Algorithm.algconf.a) * \
+                   pow(Module.conf.limitweight/weight, Algorithm.algconf.b)
+
+        if cost > Module.conf.limitcost:
+            return pow(float(Module.conf.limitcost)/cost, Algorithm.algconf.a)
+
+        if weight > Module.conf.limitweight:
+            return pow(float(Module.conf.limitweight)/weight, Algorithm.algconf.b)
+        else:
+            return 0
+
+
+

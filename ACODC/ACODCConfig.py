@@ -23,7 +23,7 @@ class ACODCConfig(AlgConfig):
         #Use in pheromone update. Use in delta-pheromone-value calculation. Coefficient in penalty
         self.b = 10
         #Initial pheromone-value on the edges
-        self.pheromone0 = 1
+        self.pheromone0 = 1.0
         #Step in degraded ceiling algorithm
         self.localSearchStep = 0.0001
         #Good solution affinity
