@@ -1,0 +1,14 @@
+Limit Cost:;130;
+Limit Weight:;191;
+Result #1;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+33;11;11;232;332;11;332;3333;23;122;11;11;1121;12;
+Reliability: 0.961904;Cost: 126.000000;Weight: 191.000000;Execution time: 12.015916;
+Result #2;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+233;11;1121;3222;333;21;332;331;31;11;333;431;1;12;
+Reliability: 0.967398;Cost: 128.000000;Weight: 191.000000;Execution time: 15.823408;
+Result #3;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;11;222;31;124;323;3333;1;2222;33;421;12;2422;
+Reliability: 0.964611;Cost: 130.000000;Weight: 191.000000;Execution time: 15.527230;

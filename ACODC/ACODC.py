@@ -113,6 +113,7 @@ class ACODC(Algorithm):
         Algorithm.__init__(self)
         self.system = []
         self.ants = []
+        self.results = []
 
     def Step(self):
         self._createAnts()
@@ -129,11 +130,6 @@ class ACODC(Algorithm):
         #SYSTEM INITIALIZATION.
         for module in Module.conf.modules:
             self.system.append(SubSystem(module))
-
-        # for subsystem in self.system:
-        #     subsystem.printSubSystem()
-        #     print '\n'
-        # return
 
         #SET_FIRST_BEST_SOLUTION
         #SOLUTION == [ANT, RELIABILITY]
@@ -152,14 +148,49 @@ class ACODC(Algorithm):
         print "Reliability: %f | Algorithm time calculation %f\n" % \
             (self.currentSolution[1], Algorithm.time)
 
-        #TODO: MAKE PRINT RESULT WITH self.stat
-
+        self.results.append({"decision": self.currentSolution[0].path,
+                             "reliability": self.currentSolution[1],
+                             "cost": self.currentSolution[0].computeCost(),
+                             "weight": self.currentSolution[0].computeWeight(),
+                             "time": Algorithm.time})
 
     def Clear(self):
         Algorithm.Clear(self)
         #reset local variable
         self.system = []
         self.ants = []
+
+    def PrintStats(self):
+        #Algorithm.result_filename
+        #Print results ti csv-file
+        if self.results == []:
+            return
+
+        f = open(Algorithm.result_filename, "w")
+        f.write("Limit Cost:;%d;\n" % Module.conf.limitcost)
+        f.write("Limit Weight:;%d;\n" % Module.conf.limitweight)
+
+        j = 1
+        for result in self.results:
+            f.write("Result #%d;\n" % j)
+            modulesCount = len(result["decision"])
+            for i in range(modulesCount):
+                f.write("Module# %d;" % (i + 1))
+            f.write('\n')
+
+            for module in result["decision"]:
+                for element in module:
+                    f.write("%d" % (element + 1))
+                f.write(";")
+
+            f.write('\n')
+            f.write("Reliability: %f;" % result["reliability"])
+            f.write("Cost: %f;" % result["cost"])
+            f.write("Weight: %f;" % result["weight"])
+            f.write("Execution time: %f;" % result["time"])
+            f.write("\n\n")
+            j += 1
+
 
     def _initialDecision(self):
         #The first solution had to be selected manually
