@@ -1,4 +1,4 @@
-<system name="s" limitcost="130" limitweight="159">
+<system name="s" limitcost="130" limitweight="191">
 	
 	<module num="0" qrv="0.99" qd="0.98" qall="0.97" tvote="5" ttest="2" trecov="10" limittime="20">
 		<tool name="none"/>

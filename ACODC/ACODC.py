@@ -122,6 +122,7 @@ class ACODC(Algorithm):
 
 
     def Run(self):
+        self.Clear()
         Algorithm.timecounts = 0
         Algorithm.simcounts = 0
         Algorithm.time = time.time()
@@ -129,17 +130,23 @@ class ACODC(Algorithm):
         for module in Module.conf.modules:
             self.system.append(SubSystem(module))
 
+        # for subsystem in self.system:
+        #     subsystem.printSubSystem()
+        #     print '\n'
+        # return
+
         #SET_FIRST_BEST_SOLUTION
         #SOLUTION == [ANT, RELIABILITY]
         #ALL INFORMATION ABOUT SYSTEM STRUCTURE KEEP IN ANT.path
         self.currentSolution = self._initialDecision()
-
+        print "ALGO START"
         while not self._algorithmFinished():
             self.Step()
             print "Iteration# %d | Current reliability %f\n" % \
                 (self.currentIter, self.currentSolution[1])
 
         Algorithm.time = time.time() - Algorithm.time
+        print "ALGO FINISHED"
         print "Best solution:\n"
         self.currentSolution[0].printDecision()
         print "Reliability: %f | Algorithm time calculation %f\n" % \
@@ -151,6 +158,8 @@ class ACODC(Algorithm):
     def Clear(self):
         Algorithm.Clear(self)
         #reset local variable
+        self.system = []
+        self.ants = []
 
     def _initialDecision(self):
         #The first solution had to be selected manually
@@ -187,8 +196,12 @@ class ACODC(Algorithm):
                 0 <= ((self.currentSolution[1] - currentRel) / self.currentSolution[1]) <= Algorithm.algconf.affinity):
                 #ant -> CANNOT_BE_MODIFIED_AS_IT_IS_USED_IN_THE_CALCULATION_OF_PHEROMONE_UPDATE
                 solution = self._localSearch(ant)
+                #solution = ant
             else:
                 continue
+
+            print "After global search ", currentRel
+            print "After local search ", solution.computeRel()
 
             newDecision = Ant()
             newDecision.path = copy.deepcopy(solution.path)
@@ -203,41 +216,32 @@ class ACODC(Algorithm):
             #CHOOSE_FIRST_EDGE
             parallelCount = subsystem.pmax
             probs = subsystem.probabilitiesFirstTypeEdges()
-            probs.append(0.0)
-            probs.sort()
-            print "First edges probabilities", probs
             p = random.random()
-            #print "random ->", p
-            for i in range(len(probs) - 1):
+            probability = 0.0
+            for i in range(len(probs)):
                 #print "choose parallel"
-                if probs[i] <= p <= probs[i+1]:
+                probability += probs[i]
+                if p <= probability:
                     parallelCount = i + 1
                     break
 
-            #print "Parallel count -> ", parallelCount
             #NOW_WE_KNOW_HOW_MUCH_PARALLEL_ELEMENTS_IN_CURRENT_SUBSYSTEM
             #THEN_WE_MUST_CHOOSE_THIS_ELEMENTS
             probs = subsystem.probabilitiesSecondTypeEdges(parallelCount)
-            probs.append(0.0)
-            probs.sort()
-            #print "Second edges probabilities", probs
             elements = []
             for element in range(parallelCount):
                 p = random.random()
-                #print "random -> ", p
+                probability = 0.0
                 el = subsystem.versionsCount - 1
-                for i in range(0, len(probs) - 1):
-                    #print "choose element"
-                    if probs[i] <= p <= probs[i+1]:
+                for i in range(0, len(probs)):
+                    probability += probs[i]
+                    if p <= probability:
                         #elements counted from (0) to (subsystem.versionsCount - 1)
                         el = i
-                        #print "Added element ->", i
                         break
                 elements.append(el)
 
             ant.path.append(elements)
-        #print "End in _globalSearch"
-        #ant.printDecision()
 
     def _localSearch(self, ant):
         maxIterWithoutChanges = Algorithm.algconf.dcMaxIterWithoutChange
@@ -267,7 +271,7 @@ class ACODC(Algorithm):
                 #MODIFY_SUBSYSTEM
                 subsystem[oldElement] = newElement
 
-            #NOW_WE_OBTAIN_NEIGHBORHOOD
+        #NOW_WE_OBTAIN_NEIGHBORHOOD
             if not neighborhood.checkConstraints(Module.conf.limitcost, Module.conf.limitweight):
                 #not increment iter in this case, because we didn't obtain feasible neighborhood
                 #set counter in 0 in the following case -> when neighborhood is better than solution
