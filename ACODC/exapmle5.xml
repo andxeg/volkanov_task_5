@@ -1,0 +1,549 @@
+<system name="s" limitcost="2700" limitweight="100000">
+	
+	<module num="0" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="20"/>
+		<sw num="1" rel="0.99" cost="40"/>
+		<sw num="2" rel="0.999" cost="60"/>
+		<sw num="3" rel="0.9999" cost="80"/>
+		<sw num="4" rel="0.99999" cost="100"/>
+		<sw num="5" rel="0.999999" cost="120"/>
+		<sw num="6" rel="0.9999999" cost="140"/>
+		<sw num="7" rel="0.99999999" cost="180"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="1" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.85" cost="30"/>
+		<sw num="1" rel="0.9775" cost="60"/>
+		<sw num="2" rel="0.9966" cost="90"/>
+		<sw num="3" rel="0.9995" cost="120"/>
+		<sw num="4" rel="0.9999" cost="150"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="2" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.8" cost="20"/>
+		<sw num="1" rel="0.96" cost="40"/>
+		<sw num="2" rel="0.99" cost="60"/>
+		<sw num="3" rel="0.998" cost="80"/>
+		<sw num="4" rel="0.9997" cost="100"/>
+		<sw num="5" rel="0.9999" cost="120"/>
+		<sw num="6" rel="0.99999" cost="140"/>
+		<sw num="7" rel="0.999999" cost="160"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="3" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.75" cost="30"/>
+		<sw num="1" rel="0.938" cost="40"/>
+		<sw num="2" rel="0.98" cost="50"/>
+		<sw num="3" rel="0.999" cost="60"/>
+		<sw num="4" rel="0.9999" cost="70"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="4" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.85" cost="20"/>
+		<sw num="1" rel="0.99" cost="40"/>
+		<sw num="2" rel="0.999" cost="65"/>
+		<sw num="3" rel="0.9999" cost="80"/>
+		<sw num="4" rel="0.99998" cost="100"/>
+		<sw num="5" rel="0.999998" cost="120"/>
+		<sw num="6" rel="0.9999998" cost="140"/>
+		<sw num="7" rel="0.99999998" cost="155"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="5" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="25"/>
+		<sw num="1" rel="0.95" cost="30"/>
+		<sw num="2" rel="0.999" cost="50"/>
+		<sw num="3" rel="0.9999" cost="70"/>
+		<sw num="4" rel="0.99999" cost="90"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="6" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.95" cost="40"/>
+		<sw num="1" rel="0.99" cost="60"/>
+		<sw num="2" rel="0.997" cost="80"/>
+		<sw num="3" rel="0.9997" cost="100"/>
+		<sw num="4" rel="0.99997" cost="120"/>
+		<sw num="5" rel="0.999997" cost="140"/>
+		<sw num="6" rel="0.9999997" cost="160"/>
+		<sw num="7" rel="0.99999997" cost="180"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="7" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.85" cost="10"/>
+		<sw num="1" rel="0.995" cost="30"/>
+		<sw num="2" rel="0.999" cost="60"/>
+		<sw num="3" rel="0.9999" cost="80"/>
+		<sw num="4" rel="0.99999" cost="120"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="8" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="30"/>
+		<sw num="1" rel="0.95" cost="50"/>
+		<sw num="2" rel="0.995" cost="70"/>
+		<sw num="3" rel="0.9995" cost="90"/>
+		<sw num="4" rel="0.99995" cost="110"/>
+		<sw num="5" rel="0.999995" cost="130"/>
+		<sw num="6" rel="0.9999995" cost="150"/>
+		<sw num="7" rel="0.99999995" cost="170"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="9" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.99" cost="15"/>
+		<sw num="1" rel="0.999" cost="40"/>
+		<sw num="2" rel="0.9999" cost="70"/>
+		<sw num="3" rel="0.99999" cost="100"/>
+		<sw num="4" rel="0.999999" cost="130"/>
+		<sw num="5" rel="0.9999999" cost="160"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="10" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.95" cost="20"/>
+		<sw num="1" rel="0.999" cost="40"/>
+		<sw num="2" rel="0.9998" cost="60"/>
+		<sw num="3" rel="0.99999" cost="80"/>
+		<sw num="4" rel="0.999998" cost="100"/>
+		<sw num="5" rel="0.9999999" cost="120"/>
+		<sw num="6" rel="0.99999997" cost="140"/>
+		<sw num="7" rel="0.999999999" cost="160"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="11" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.8" cost="40"/>
+		<sw num="1" rel="0.9" cost="60"/>
+		<sw num="2" rel="0.99" cost="85"/>
+		<sw num="3" rel="0.999" cost="110"/>
+		<sw num="4" rel="0.9999" cost="130"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="12" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.75" cost="30"/>
+		<sw num="1" rel="0.85" cost="50"/>
+		<sw num="2" rel="0.99" cost="80"/>
+		<sw num="3" rel="0.999" cost="100"/>
+		<sw num="4" rel="0.9996" cost="120"/>
+		<sw num="5" rel="0.99996" cost="140"/>
+		<sw num="6" rel="0.999996" cost="160"/>
+		<sw num="7" rel="0.9999996" cost="180"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="13" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.8" cost="10"/>
+		<sw num="1" rel="0.95" cost="30"/>
+		<sw num="2" rel="0.99" cost="40"/>
+		<sw num="3" rel="0.999" cost="60"/>
+		<sw num="4" rel="0.9999" cost="80"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="14" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.99" cost="50"/>
+		<sw num="1" rel="0.999" cost="80"/>
+		<sw num="2" rel="0.9999" cost="110"/>
+		<sw num="3" rel="0.99999" cost="140"/>
+		<sw num="4" rel="0.999999" cost="160"/>
+		<sw num="5" rel="0.9999999" cost="180"/>
+		<sw num="6" rel="0.99999998" cost="200"/>
+		<sw num="7" rel="0.999999995" cost="220"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="15" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="20"/>
+		<sw num="1" rel="0.99" cost="40"/>
+		<sw num="2" rel="0.999" cost="60"/>
+		<sw num="3" rel="0.9999" cost="80"/>
+		<sw num="4" rel="0.99999" cost="100"/>
+		<sw num="5" rel="0.999999" cost="120"/>
+		<sw num="6" rel="0.9999999" cost="140"/>
+		<sw num="7" rel="0.99999999" cost="180"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="16" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.85" cost="30"/>
+		<sw num="1" rel="0.9775" cost="60"/>
+		<sw num="2" rel="0.9966" cost="90"/>
+		<sw num="3" rel="0.9995" cost="120"/>
+		<sw num="4" rel="0.99999" cost="150"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="17" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.8" cost="20"/>
+		<sw num="1" rel="0.96" cost="40"/>
+		<sw num="2" rel="0.99" cost="60"/>
+		<sw num="3" rel="0.998" cost="80"/>
+		<sw num="4" rel="0.9997" cost="100"/>
+		<sw num="5" rel="0.9999" cost="120"/>
+		<sw num="6" rel="0.99999" cost="140"/>
+		<sw num="7" rel="0.999999" cost="160"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="18" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.75" cost="30"/>
+		<sw num="1" rel="0.938" cost="40"/>
+		<sw num="2" rel="0.98" cost="50"/>
+		<sw num="3" rel="0.999" cost="60"/>
+		<sw num="4" rel="0.9999" cost="70"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="19" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.85" cost="20"/>
+		<sw num="1" rel="0.99" cost="40"/>
+		<sw num="2" rel="0.999" cost="65"/>
+		<sw num="3" rel="0.9999" cost="80"/>
+		<sw num="4" rel="0.99998" cost="100"/>
+		<sw num="5" rel="0.999998" cost="120"/>
+		<sw num="6" rel="0.9999998" cost="140"/>
+		<sw num="7" rel="0.99999998" cost="155"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="20" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="25"/>
+		<sw num="1" rel="0.95" cost="30"/>
+		<sw num="2" rel="0.999" cost="50"/>
+		<sw num="3" rel="0.9999" cost="70"/>
+		<sw num="4" rel="0.99999" cost="90"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="21" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.95" cost="40"/>
+		<sw num="1" rel="0.99" cost="60"/>
+		<sw num="2" rel="0.997" cost="80"/>
+		<sw num="3" rel="0.9997" cost="100"/>
+		<sw num="4" rel="0.99997" cost="120"/>
+		<sw num="5" rel="0.999997" cost="140"/>
+		<sw num="6" rel="0.9999997" cost="160"/>
+		<sw num="7" rel="0.99999997" cost="180"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="22" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.85" cost="10"/>
+		<sw num="1" rel="0.995" cost="30"/>
+		<sw num="2" rel="0.999" cost="60"/>
+		<sw num="3" rel="0.9999" cost="80"/>
+		<sw num="4" rel="0.99999" cost="120"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="23" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="30"/>
+		<sw num="1" rel="0.95" cost="50"/>
+		<sw num="2" rel="0.995" cost="70"/>
+		<sw num="3" rel="0.9995" cost="90"/>
+		<sw num="4" rel="0.99995" cost="110"/>
+		<sw num="5" rel="0.999995" cost="130"/>
+		<sw num="6" rel="0.9999995" cost="150"/>
+		<sw num="7" rel="0.99999995" cost="170"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="24" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.99" cost="15"/>
+		<sw num="1" rel="0.999" cost="40"/>
+		<sw num="2" rel="0.9999" cost="70"/>
+		<sw num="3" rel="0.99999" cost="100"/>
+		<sw num="4" rel="0.999999" cost="130"/>
+		<sw num="5" rel="0.9999999" cost="160"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="25" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.95" cost="25"/>
+		<sw num="1" rel="0.99" cost="35"/>
+		<sw num="2" rel="0.999" cost="55"/>
+		<sw num="3" rel="0.9995" cost="70"/>
+		<sw num="4" rel="0.99999" cost="95"/>
+		<sw num="5" rel="0.999995" cost="115"/>
+		<sw num="6" rel="0.9999999" cost="140"/>
+		<sw num="7" rel="0.99999998" cost="160"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="26" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.85" cost="40"/>
+		<sw num="1" rel="0.97" cost="60"/>
+		<sw num="2" rel="0.997" cost="90"/>
+		<sw num="3" rel="0.9995" cost="120"/>
+		<sw num="4" rel="0.9999" cost="145"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="27" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.85" cost="25"/>
+		<sw num="1" rel="0.96" cost="45"/>
+		<sw num="2" rel="0.99" cost="60"/>
+		<sw num="3" rel="0.998" cost="85"/>
+		<sw num="4" rel="0.9998" cost="100"/>
+		<sw num="5" rel="0.99995" cost="125"/>
+		<sw num="6" rel="0.99999" cost="150"/>
+		<sw num="7" rel="0.999999" cost="170"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="28" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.8" cost="30"/>
+		<sw num="1" rel="0.9" cost="45"/>
+		<sw num="2" rel="0.98" cost="60"/>
+		<sw num="3" rel="0.998" cost="70"/>
+		<sw num="4" rel="0.9995" cost="85"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="29" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.8" cost="20"/>
+		<sw num="1" rel="0.98" cost="40"/>
+		<sw num="2" rel="0.995" cost="60"/>
+		<sw num="3" rel="0.9995" cost="80"/>
+		<sw num="4" rel="0.99995" cost="100"/>
+		<sw num="5" rel="0.999995" cost="120"/>
+		<sw num="6" rel="0.9999995" cost="140"/>
+		<sw num="7" rel="0.99999995" cost="160"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="30" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.85" cost="20"/>
+		<sw num="1" rel="0.9" cost="30"/>
+		<sw num="2" rel="0.99" cost="50"/>
+		<sw num="3" rel="0.999" cost="70"/>
+		<sw num="4" rel="0.9999" cost="90"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="31" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="30"/>
+		<sw num="1" rel="0.97" cost="50"/>
+		<sw num="2" rel="0.997" cost="70"/>
+		<sw num="3" rel="0.9997" cost="90"/>
+		<sw num="4" rel="0.99997" cost="110"/>
+		<sw num="5" rel="0.999997" cost="130"/>
+		<sw num="6" rel="0.9999997" cost="150"/>
+		<sw num="7" rel="0.99999997" cost="170"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="32" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.85" cost="15"/>
+		<sw num="1" rel="0.95" cost="30"/>
+		<sw num="2" rel="0.995" cost="60"/>
+		<sw num="3" rel="0.9995" cost="85"/>
+		<sw num="4" rel="0.99995" cost="110"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="33" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="25"/>
+		<sw num="1" rel="0.95" cost="45"/>
+		<sw num="2" rel="0.995" cost="65"/>
+		<sw num="3" rel="0.9995" cost="80"/>
+		<sw num="4" rel="0.99995" cost="105"/>
+		<sw num="5" rel="0.999995" cost="125"/>
+		<sw num="6" rel="0.9999995" cost="145"/>
+		<sw num="7" rel="0.99999995" cost="165"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="34" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.95" cost="20"/>
+		<sw num="1" rel="0.999" cost="45"/>
+		<sw num="2" rel="0.9995" cost="70"/>
+		<sw num="3" rel="0.99999" cost="100"/>
+		<sw num="4" rel="0.999995" cost="140"/>
+		<sw num="5" rel="0.9999999" cost="170"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="35" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.99" cost="30"/>
+		<sw num="1" rel="0.998" cost="40"/>
+		<sw num="2" rel="0.9998" cost="60"/>
+		<sw num="3" rel="0.99998" cost="80"/>
+		<sw num="4" rel="0.999998" cost="100"/>
+		<sw num="5" rel="0.9999998" cost="120"/>
+		<sw num="6" rel="0.99999998" cost="140"/>
+		<sw num="7" rel="0.999999998" cost="160"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="36" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.8" cost="30"/>
+		<sw num="1" rel="0.9" cost="50"/>
+		<sw num="2" rel="0.99" cost="80"/>
+		<sw num="3" rel="0.999" cost="115"/>
+		<sw num="4" rel="0.9999" cost="130"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="37" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.75" cost="20"/>
+		<sw num="1" rel="0.85" cost="40"/>
+		<sw num="2" rel="0.95" cost="75"/>
+		<sw num="3" rel="0.996" cost="100"/>
+		<sw num="4" rel="0.9996" cost="115"/>
+		<sw num="5" rel="0.99996" cost="140"/>
+		<sw num="6" rel="0.999996" cost="155"/>
+		<sw num="7" rel="0.9999996" cost="175"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="38" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.75" cost="15"/>
+		<sw num="1" rel="0.9" cost="30"/>
+		<sw num="2" rel="0.99" cost="40"/>
+		<sw num="3" rel="0.999" cost="60"/>
+		<sw num="4" rel="0.9995" cost="80"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="39" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.99" cost="40"/>
+		<sw num="1" rel="0.999" cost="70"/>
+		<sw num="2" rel="0.9999" cost="100"/>
+		<sw num="3" rel="0.99999" cost="130"/>
+		<sw num="4" rel="0.999999" cost="160"/>
+		<sw num="5" rel="0.9999999" cost="185"/>
+		<sw num="6" rel="0.99999998" cost="210"/>
+		<sw num="7" rel="0.999999995" cost="225"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>	
+</system>

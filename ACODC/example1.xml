@@ -1,0 +1,169 @@
+<system name="s" limitcost="1000" limitweight="50000">
+	
+	<module num="0" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="20"/>
+		<sw num="1" rel="0.99" cost="40"/>
+		<sw num="2" rel="0.999" cost="60"/>
+		<sw num="3" rel="0.9999" cost="80"/>
+		<sw num="4" rel="0.99999" cost="100"/>
+		<sw num="5" rel="0.999999" cost="120"/>
+		<sw num="6" rel="0.9999999" cost="140"/>
+		<sw num="7" rel="0.99999999" cost="180"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="1" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.85" cost="30"/>
+		<sw num="1" rel="0.9775" cost="60"/>
+		<sw num="2" rel="0.9966" cost="90"/>
+		<sw num="3" rel="0.9995" cost="120"/>
+		<sw num="4" rel="0.9999" cost="150"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="2" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.8" cost="20"/>
+		<sw num="1" rel="0.96" cost="40"/>
+		<sw num="2" rel="0.99" cost="60"/>
+		<sw num="3" rel="0.998" cost="80"/>
+		<sw num="4" rel="0.9997" cost="100"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="3" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.75" cost="30"/>
+		<sw num="1" rel="0.938" cost="40"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="4" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.85" cost="20"/>
+		<sw num="1" rel="0.99" cost="40"/>
+		<sw num="2" rel="0.999" cost="65"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="5" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="25"/>
+		<sw num="1" rel="0.95" cost="30"/>
+		<sw num="2" rel="0.999" cost="50"/>
+		<sw num="3" rel="0.9999" cost="70"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="6" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.95" cost="40"/>
+		<sw num="1" rel="0.99" cost="60"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="7" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.85" cost="10"/>
+		<sw num="1" rel="0.995" cost="30"/>
+		<sw num="2" rel="0.999" cost="60"/>
+		<sw num="3" rel="0.9999" cost="80"/>
+		<sw num="4" rel="0.99999" cost="120"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="8" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.9" cost="30"/>
+		<sw num="1" rel="0.95" cost="50"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="9" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.99" cost="15"/>
+		<sw num="1" rel="0.999" cost="40"/>
+		<sw num="2" rel="0.9999" cost="70"/>
+		<sw num="3" rel="0.99999" cost="100"/>
+		<sw num="4" rel="0.999999" cost="130"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="10" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.95" cost="20"/>
+		<sw num="1" rel="0.999" cost="40"/>
+		<sw num="2" rel="0.9998" cost="60"/>
+		<sw num="3" rel="0.99999" cost="80"/>
+		<sw num="4" rel="0.999998" cost="100"/>
+		<sw num="5" rel="0.9999999" cost="120"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="11" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.8" cost="40"/>
+		<sw num="1" rel="0.9" cost="60"/>
+		<sw num="2" rel="0.99" cost="85"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="12" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.75" cost="30"/>
+		<sw num="1" rel="0.85" cost="50"/>
+		<sw num="2" rel="0.99" cost="80"/>
+		<sw num="3" rel="0.999" cost="100"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="13" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.8" cost="10"/>
+		<sw num="1" rel="0.95" cost="30"/>
+		<sw num="2" rel="0.99" cost="40"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+	<module num="14" qrv="0.996" qd="0.998" qall="0.995" tvote="5" ttest="2" trecov="10" limittime="20">
+		<tool name="none"/>
+		<tool name="nvp01"/>
+		<tool name="nvp11"/>
+		<tool name="rb11"/>
+		<sw num="0" rel="0.99" cost="50"/>
+		<sw num="1" rel="0.999" cost="80"/>
+		<sw num="2" rel="0.9999" cost="110"/>
+		<sw num="3" rel="0.99999" cost="140"/>
+		<hw num="0" rel="1.0" cost="0"/>
+	</module>
+</system>
