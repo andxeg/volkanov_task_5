@@ -1,0 +1,847 @@
+Limit Cost:;130;
+Limit Weight:;191;
+Result #1;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+323;11;11;222;12;14;333;113;13;2222;11;4414;11;12;
+Reliability: 0.977673;Cost: 130.000000;Weight: 191.000000;Execution time: 14.479885;
+
+Result #2;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;11;111;11;333;41;333;3133;33;211;11;4342;11;22;
+Reliability: 0.967393;Cost: 125.000000;Weight: 191.000000;Execution time: 15.409577;
+
+Result #3;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;11;122;3222;323;21;11;313;333;2212;11;414;1;1;
+Reliability: 0.960541;Cost: 127.000000;Weight: 191.000000;Execution time: 15.084039;
+
+Result #4;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;31;1112;3223;32;22;11;113;22;121;11;311;1;21;
+Reliability: 0.969429;Cost: 130.000000;Weight: 191.000000;Execution time: 14.372463;
+
+Result #5;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3433;11;11;2222;23;443;21;133;23;212;13;144;11;2442;
+Reliability: 0.968287;Cost: 130.000000;Weight: 191.000000;Execution time: 15.275451;
+
+Result #6;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+343;11;211;121;12;22;11;11;31;11;13;2431;121;31;
+Reliability: 0.964777;Cost: 123.000000;Weight: 191.000000;Execution time: 14.105494;
+
+Result #7;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+2333;11;111;2322;333;1;11;313;32;211;131;143;111;1;
+Reliability: 0.963165;Cost: 130.000000;Weight: 190.000000;Execution time: 12.529886;
+
+Result #8;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;121;11;222;32;22;133;113;1;211;12;141;211;22;
+Reliability: 0.965786;Cost: 130.000000;Weight: 191.000000;Execution time: 14.547465;
+
+Result #9;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+433;11;111;122;222;11;11;3231;1;111;21;2434;1;222;
+Reliability: 0.965198;Cost: 130.000000;Weight: 191.000000;Execution time: 14.408020;
+
+Result #10;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;11;3221;21;21;21;11;21;11;133;121;11;224;
+Reliability: 0.962731;Cost: 129.000000;Weight: 191.000000;Execution time: 14.389577;
+
+Result #11;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+233;11;111;222;3223;22;21;131;1;221;13;11;2222;424;
+Reliability: 0.961761;Cost: 129.000000;Weight: 191.000000;Execution time: 15.778193;
+
+Result #12;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;111;11;222;232;1;11;3333;333;11;11;124;11;222;
+Reliability: 0.956241;Cost: 128.000000;Weight: 191.000000;Execution time: 14.549215;
+
+Result #13;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+331;11;11;2223;31;21;233;11;332;122;12;111;12;1;
+Reliability: 0.962767;Cost: 129.000000;Weight: 191.000000;Execution time: 13.313200;
+
+Result #14;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+332;111;11;222;12;21;11;3333;333;11;11;4434;21;21;
+Reliability: 0.967836;Cost: 124.000000;Weight: 191.000000;Execution time: 13.914043;
+
+Result #15;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3334;11;122;222;11;1;333;113;32;1212;11;4443;21;22;
+Reliability: 0.971437;Cost: 130.000000;Weight: 191.000000;Execution time: 14.939896;
+
+Result #16;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;11;111;3222;23;2424;23;133;33;11;33;4344;11;4222;
+Reliability: 0.960955;Cost: 130.000000;Weight: 191.000000;Execution time: 13.413550;
+
+Result #17;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;11;11;2232;22;4442;11;3333;31;211;31;314;21;21;
+Reliability: 0.969168;Cost: 124.000000;Weight: 191.000000;Execution time: 13.160324;
+
+Result #18;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;111;111;222;33;1;233;11;32;2212;3323;331;1;22;
+Reliability: 0.951592;Cost: 128.000000;Weight: 191.000000;Execution time: 15.034410;
+
+Result #19;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+22;11;1111;3223;333;22;23;11;13;2122;13;442;111;22;
+Reliability: 0.964167;Cost: 129.000000;Weight: 191.000000;Execution time: 14.456989;
+
+Result #20;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;311;3222;3333;22;13;11;22;112;31;412;1;2442;
+Reliability: 0.964018;Cost: 130.000000;Weight: 191.000000;Execution time: 12.545697;
+
+Result #21;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;11;11;222;233;11;122;113;31;11;233;1444;1;31;
+Reliability: 0.961238;Cost: 122.000000;Weight: 191.000000;Execution time: 13.116818;
+
+Result #22;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;11;2232;232;22;11;313;12;2212;11;3344;11;22;
+Reliability: 0.976922;Cost: 130.000000;Weight: 190.000000;Execution time: 12.788767;
+
+Result #23;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+331;11;11;211;21;414;11;111;1;11;11;134;213;344;
+Reliability: 0.955502;Cost: 123.000000;Weight: 191.000000;Execution time: 14.205859;
+
+Result #24;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;11;111;2222;3333;21;11;3313;1;122;13;4442;11;21;
+Reliability: 0.973197;Cost: 130.000000;Weight: 190.000000;Execution time: 13.831267;
+
+Result #25;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;111;223;32;2244;11;313;32;212;13;141;121;22;
+Reliability: 0.971954;Cost: 130.000000;Weight: 191.000000;Execution time: 14.224499;
+
+Result #26;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;11;11;222;22;442;11;3333;21;2211;13;142;211;1;
+Reliability: 0.961278;Cost: 120.000000;Weight: 191.000000;Execution time: 13.752231;
+
+Result #27;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+12;113;111;222;33;22;11;131;33;112;11;3444;22;21;
+Reliability: 0.975012;Cost: 126.000000;Weight: 191.000000;Execution time: 14.746828;
+
+Result #28;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;12;111;222;322;1;11;1332;1;121;12;111;21;12;
+Reliability: 0.961858;Cost: 127.000000;Weight: 191.000000;Execution time: 13.053495;
+
+Result #29;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3343;11;11;2232;21;24;11;313;1;121;11;2443;12;3422;
+Reliability: 0.965798;Cost: 130.000000;Weight: 191.000000;Execution time: 15.914100;
+
+Result #30;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;11;111;2322;32;4442;13;3333;1;222;13;414;11;2222;
+Reliability: 0.961378;Cost: 130.000000;Weight: 191.000000;Execution time: 15.142050;
+
+Result #31;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;11;221;333;42;11;3333;334;211;11;114;21;21;
+Reliability: 0.976265;Cost: 130.000000;Weight: 191.000000;Execution time: 15.614020;
+
+Result #32;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;111;11;11;13;424;333;133;33;211;333;411;21;22;
+Reliability: 0.960823;Cost: 122.000000;Weight: 191.000000;Execution time: 15.047347;
+
+Result #33;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;111;2233;11;14;332;311;13;112;11;4434;1;12;
+Reliability: 0.975107;Cost: 130.000000;Weight: 191.000000;Execution time: 16.465312;
+
+Result #34;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;11;2221;11;21;323;313;1;1221;331;144;11;31;
+Reliability: 0.968084;Cost: 130.000000;Weight: 191.000000;Execution time: 13.933907;
+
+Result #35;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;111;2222;332;423;21;11;21;121;11;4443;11;41;
+Reliability: 0.976593;Cost: 130.000000;Weight: 190.000000;Execution time: 15.531505;
+
+Result #36;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;111;222;11;1;223;3333;11;121;11;4414;1;242;
+Reliability: 0.965292;Cost: 130.000000;Weight: 191.000000;Execution time: 12.869628;
+
+Result #37;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;11;11;32;212;333;3333;2333;11;13;411;11;22;
+Reliability: 0.951130;Cost: 123.000000;Weight: 191.000000;Execution time: 13.665981;
+
+Result #38;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3343;11;111;122;333;423;12;113;23;11;3333;413;11;22;
+Reliability: 0.970067;Cost: 128.000000;Weight: 191.000000;Execution time: 15.146975;
+
+Result #39;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;11;212;222;11;24;11;3333;33;2222;31;141;211;22;
+Reliability: 0.971877;Cost: 128.000000;Weight: 191.000000;Execution time: 13.954632;
+
+Result #40;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;11;11;223;323;234;323;311;33;121;11;114;11;22;
+Reliability: 0.973191;Cost: 129.000000;Weight: 191.000000;Execution time: 13.493859;
+
+Result #41;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;11;111;222;3333;12;233;313;21;221;333;241;11;22;
+Reliability: 0.976716;Cost: 127.000000;Weight: 191.000000;Execution time: 15.430183;
+
+Result #42;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+4344;11;111;122;333;11;11;11;22;221;32;413;221;12;
+Reliability: 0.971741;Cost: 121.000000;Weight: 191.000000;Execution time: 14.310526;
+
+Result #43;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+21;11;111;222;32;22;11;11;31;11;11;4442;2222;234;
+Reliability: 0.960701;Cost: 124.000000;Weight: 191.000000;Execution time: 14.954003;
+
+Result #44;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;111;11;2333;12;333;113;13;121;13;231;21;22;
+Reliability: 0.968191;Cost: 129.000000;Weight: 191.000000;Execution time: 16.024459;
+
+Result #45;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3234;11;111;221;333;12;11;12;23;2212;31;4141;1;41;
+Reliability: 0.965968;Cost: 127.000000;Weight: 191.000000;Execution time: 14.877584;
+
+Result #46;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+32;11;211;222;32;22;333;11;33;112;332;441;21;4244;
+Reliability: 0.966313;Cost: 130.000000;Weight: 191.000000;Execution time: 14.914986;
+
+Result #47;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;11;212;12;1;2333;3133;13;211;12;214;11;22;
+Reliability: 0.965306;Cost: 130.000000;Weight: 191.000000;Execution time: 15.459205;
+
+Result #48;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;11;2232;332;21;11;113;322;11;31;314;111;22;
+Reliability: 0.966587;Cost: 130.000000;Weight: 191.000000;Execution time: 14.879203;
+
+Result #49;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+33;11;1211;222;333;12;333;3333;1;212;3333;243;111;22;
+Reliability: 0.963531;Cost: 130.000000;Weight: 191.000000;Execution time: 15.092400;
+
+Result #50;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;11;222;231;212;11;1333;21;11;11;3414;11;21;
+Reliability: 0.970296;Cost: 130.000000;Weight: 191.000000;Execution time: 14.702606;
+
+Result #51;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3344;11;11;222;11;222;31;113;233;121;31;4444;11;12;
+Reliability: 0.972048;Cost: 129.000000;Weight: 191.000000;Execution time: 13.840424;
+
+Result #52;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;111;11;2322;31;21;333;311;21;112;11;134;1;14;
+Reliability: 0.968444;Cost: 128.000000;Weight: 191.000000;Execution time: 15.123645;
+
+Result #53;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+134;11;11;2322;3323;1;223;331;1;2222;11;422;11;222;
+Reliability: 0.959860;Cost: 130.000000;Weight: 191.000000;Execution time: 14.758186;
+
+Result #54;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+223;111;111;2222;333;21;11;133;1;11;333;411;11;12;
+Reliability: 0.968499;Cost: 127.000000;Weight: 191.000000;Execution time: 13.790829;
+
+Result #55;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;11;111;11;332;21;333;11;333;2212;31;4144;1;12;
+Reliability: 0.952936;Cost: 126.000000;Weight: 191.000000;Execution time: 13.974730;
+
+Result #56;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;11;111;211;33;41;332;311;13;211;31;214;1;222;
+Reliability: 0.967353;Cost: 127.000000;Weight: 191.000000;Execution time: 13.107911;
+
+Result #57;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3334;11;111;222;133;12;12;1332;1;11;133;4434;111;12;
+Reliability: 0.966123;Cost: 130.000000;Weight: 191.000000;Execution time: 13.535553;
+
+Result #58;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;2111;2213;3332;12;11;11;1;211;333;413;22;22;
+Reliability: 0.967021;Cost: 130.000000;Weight: 191.000000;Execution time: 14.996804;
+
+Result #59;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+12;11;1111;222;223;14;11;3113;11;11;13;11;1;323;
+Reliability: 0.954129;Cost: 127.000000;Weight: 191.000000;Execution time: 14.012604;
+
+Result #60;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;111;11;222;3333;4422;11;333;23;2222;31;414;21;22;
+Reliability: 0.968117;Cost: 126.000000;Weight: 191.000000;Execution time: 15.290028;
+
+Result #61;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;11;1111;212;333;1;333;3333;313;11;13;11;111;22;
+Reliability: 0.953673;Cost: 129.000000;Weight: 191.000000;Execution time: 14.312932;
+
+Result #62;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;11;11;3222;3333;32;31;133;1;221;3333;114;13;12;
+Reliability: 0.964146;Cost: 124.000000;Weight: 191.000000;Execution time: 13.449562;
+
+Result #63;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+4333;11;111;2221;3323;21;11;3333;13;11;32;431;11;12;
+Reliability: 0.973848;Cost: 129.000000;Weight: 191.000000;Execution time: 12.764797;
+
+Result #64;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;11;1112;2322;133;22;31;11;32;221;21;242;22;442;
+Reliability: 0.967613;Cost: 130.000000;Weight: 191.000000;Execution time: 15.815802;
+
+Result #65;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;112;222;332;21;11;113;32;211;3232;3444;1;12;
+Reliability: 0.972560;Cost: 130.000000;Weight: 191.000000;Execution time: 14.307665;
+
+Result #66;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;111;111;222;13;21;11;113;33;122;133;134;12;22;
+Reliability: 0.972516;Cost: 130.000000;Weight: 190.000000;Execution time: 17.084503;
+
+Result #67;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+233;11;111;2223;333;21;13;11;21;111;11;4434;21;224;
+Reliability: 0.977001;Cost: 130.000000;Weight: 191.000000;Execution time: 16.021722;
+
+Result #68;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;113;1111;2322;22;1;11;313;31;211;11;3444;1;12;
+Reliability: 0.962946;Cost: 128.000000;Weight: 191.000000;Execution time: 13.451231;
+
+Result #69;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;11;2221;2332;1;223;311;12;111;133;11;1;12;
+Reliability: 0.956646;Cost: 130.000000;Weight: 191.000000;Execution time: 12.372919;
+
+Result #70;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;11;11;1212;323;242;11;311;33;211;333;134;11;22;
+Reliability: 0.971436;Cost: 130.000000;Weight: 191.000000;Execution time: 15.099487;
+
+Result #71;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;11;111;2222;23;22;31;3333;23;222;3333;441;11;242;
+Reliability: 0.971685;Cost: 130.000000;Weight: 191.000000;Execution time: 14.978042;
+
+Result #72;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;11;1111;122;13;22;3333;313;23;11;333;134;11;22;
+Reliability: 0.965541;Cost: 128.000000;Weight: 191.000000;Execution time: 16.773208;
+
+Result #73;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+334;11;1111;3322;22;1;11;2313;1;111;213;4441;22;1;
+Reliability: 0.956819;Cost: 126.000000;Weight: 191.000000;Execution time: 12.500684;
+
+Result #74;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;11;121;313;2244;11;311;23;11;332;412;11;22;
+Reliability: 0.966466;Cost: 128.000000;Weight: 191.000000;Execution time: 14.533435;
+
+Result #75;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;11;222;23;12;11;311;233;11;233;124;121;12;
+Reliability: 0.964774;Cost: 130.000000;Weight: 191.000000;Execution time: 13.023241;
+
+Result #76;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;11;11;222;21;241;11;3333;13;221;31;4444;212;222;
+Reliability: 0.968634;Cost: 124.000000;Weight: 191.000000;Execution time: 15.717914;
+
+Result #77;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;11;1222;13;431;333;311;32;121;11;4234;12;1;
+Reliability: 0.969514;Cost: 130.000000;Weight: 191.000000;Execution time: 13.165741;
+
+Result #78;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+12;11;11;321;22;224;13;3332;12;111;13;11;11;222;
+Reliability: 0.961316;Cost: 121.000000;Weight: 191.000000;Execution time: 12.645467;
+
+Result #79;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;11;111;222;21;2211;11;331;1;212;333;11;11;424;
+Reliability: 0.958933;Cost: 128.000000;Weight: 191.000000;Execution time: 13.848019;
+
+Result #80;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+233;11;212;3222;333;41;12;3333;1;121;11;211;112;22;
+Reliability: 0.971939;Cost: 128.000000;Weight: 191.000000;Execution time: 14.627467;
+
+Result #81;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;11;111;222;333;22;31;3333;31;221;1133;4444;11;21;
+Reliability: 0.976703;Cost: 129.000000;Weight: 191.000000;Execution time: 14.656731;
+
+Result #82;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;11;11;333;24;11;3133;11;111;113;4444;111;22;
+Reliability: 0.962990;Cost: 123.000000;Weight: 191.000000;Execution time: 14.882785;
+
+Result #83;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;11;1112;222;21;1;333;331;1;2211;12;124;121;12;
+Reliability: 0.957511;Cost: 130.000000;Weight: 191.000000;Execution time: 12.966869;
+
+Result #84;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;111;223;3332;431;31;11;32;212;31;443;11;2242;
+Reliability: 0.965513;Cost: 130.000000;Weight: 191.000000;Execution time: 13.367258;
+
+Result #85;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;11;111;222;3333;224;233;113;32;212;233;134;12;1;
+Reliability: 0.969664;Cost: 128.000000;Weight: 191.000000;Execution time: 14.763555;
+
+Result #86;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+12;11;11;222;333;22;233;1333;23;221;11;4133;11;21;
+Reliability: 0.976135;Cost: 128.000000;Weight: 191.000000;Execution time: 14.739173;
+
+Result #87;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;1311;222;13;1;11;131;31;121;323;411;21;12;
+Reliability: 0.970187;Cost: 130.000000;Weight: 191.000000;Execution time: 13.590144;
+
+Result #88;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+4234;11;11;121;2333;2124;222;11;1;11;31;113;21;22;
+Reliability: 0.953897;Cost: 122.000000;Weight: 191.000000;Execution time: 14.612229;
+
+Result #89;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;11;2322;3333;1;331;311;21;11;3133;4444;11;22;
+Reliability: 0.963448;Cost: 128.000000;Weight: 191.000000;Execution time: 14.777832;
+
+Result #90;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;11;21;3332;212;333;11;223;211;31;4444;11;21;
+Reliability: 0.956266;Cost: 123.000000;Weight: 191.000000;Execution time: 13.401526;
+
+Result #91;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;212;11;12;424;21;312;33;11;21;121;23;423;
+Reliability: 0.954286;Cost: 121.000000;Weight: 191.000000;Execution time: 12.239950;
+
+Result #92;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;111;11;222;333;422;31;131;13;122;32;411;21;21;
+Reliability: 0.974564;Cost: 130.000000;Weight: 191.000000;Execution time: 14.159998;
+
+Result #93;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;11;221;23;2224;13;311;232;121;133;11;11;22;
+Reliability: 0.962635;Cost: 130.000000;Weight: 191.000000;Execution time: 13.028753;
+
+Result #94;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3434;11;11;222;333;2444;31;133;31;11;11;413;11;4422;
+Reliability: 0.963327;Cost: 130.000000;Weight: 191.000000;Execution time: 16.120219;
+
+Result #95;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;11;1211;11;333;22;11;321;32;211;13;4234;11;41;
+Reliability: 0.963130;Cost: 122.000000;Weight: 191.000000;Execution time: 13.177986;
+
+Result #96;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;11;111;11;332;12;12;312;33;121;313;131;21;22;
+Reliability: 0.963357;Cost: 124.000000;Weight: 191.000000;Execution time: 14.506080;
+
+Result #97;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3244;11;1111;2322;11;1;21;11;1;211;11;4334;1;4342;
+Reliability: 0.948046;Cost: 130.000000;Weight: 191.000000;Execution time: 13.446670;
+
+Result #98;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;11;11;222;233;34;11;11;13;2312;233;2442;11;21;
+Reliability: 0.967921;Cost: 126.000000;Weight: 191.000000;Execution time: 12.752506;
+
+Result #99;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3332;11;11;121;32;22;11;311;13;112;11;11;122;242;
+Reliability: 0.965533;Cost: 129.000000;Weight: 191.000000;Execution time: 12.829791;
+
+Result #100;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;11;2222;333;21;11;331;22;221;3333;441;11;224;
+Reliability: 0.974823;Cost: 130.000000;Weight: 191.000000;Execution time: 17.147099;
+
+Result #101;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;111;11;222;21;24;11;3333;13;2122;333;311;1;22;
+Reliability: 0.966556;Cost: 128.000000;Weight: 191.000000;Execution time: 14.379871;
+
+Result #102;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+323;111;11;2213;333;422;11;11;33;121;11;314;11;22;
+Reliability: 0.969667;Cost: 130.000000;Weight: 191.000000;Execution time: 14.261564;
+
+Result #103;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;11;11;2222;333;24;31;311;12;212;331;341;1;4432;
+Reliability: 0.962123;Cost: 130.000000;Weight: 191.000000;Execution time: 14.401370;
+
+Result #104;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;111;11;221;322;22;11;3313;1;11;11;4244;111;222;
+Reliability: 0.962426;Cost: 128.000000;Weight: 191.000000;Execution time: 14.490005;
+
+Result #105;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+334;11;111;221;333;2244;31;131;13;11;22;421;21;242;
+Reliability: 0.969852;Cost: 130.000000;Weight: 191.000000;Execution time: 15.223653;
+
+Result #106;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+433;11;11;222;21;21;31;3131;12;2132;11;141;21;12;
+Reliability: 0.973252;Cost: 130.000000;Weight: 191.000000;Execution time: 13.903733;
+
+Result #107;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3343;11;112;2221;11;22;11;3333;1;1112;11;2244;12;1;
+Reliability: 0.966075;Cost: 130.000000;Weight: 191.000000;Execution time: 14.746001;
+
+Result #108;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;1112;2222;22;222;332;331;12;11;333;4333;1;22;
+Reliability: 0.964976;Cost: 130.000000;Weight: 191.000000;Execution time: 16.085584;
+
+Result #109;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;11;2111;11;332;4242;323;3333;21;11;33;4444;1;12;
+Reliability: 0.948560;Cost: 114.000000;Weight: 191.000000;Execution time: 14.428582;
+
+Result #110;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;2111;11;32;21;12;3313;32;121;113;3143;11;1;
+Reliability: 0.957150;Cost: 125.000000;Weight: 191.000000;Execution time: 13.015250;
+
+Result #111;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;11;1111;222;22;244;223;3333;33;112;31;241;21;22;
+Reliability: 0.973053;Cost: 130.000000;Weight: 191.000000;Execution time: 14.006159;
+
+Result #112;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;11;222;23;12;11;131;33;211;333;4424;222;244;
+Reliability: 0.973223;Cost: 130.000000;Weight: 191.000000;Execution time: 15.490129;
+
+Result #113;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;11;11;3222;21;1;13;11;31;1221;331;131;11;21;
+Reliability: 0.959086;Cost: 129.000000;Weight: 191.000000;Execution time: 13.848641;
+
+Result #114;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;111;11;2222;333;422;11;133;33;122;33;144;11;242;
+Reliability: 0.969464;Cost: 130.000000;Weight: 191.000000;Execution time: 15.970353;
+
+Result #115;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3434;11;1111;222;12;234;11;3333;13;11;31;11;21;224;
+Reliability: 0.963388;Cost: 129.000000;Weight: 191.000000;Execution time: 13.667840;
+
+Result #116;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;111;1111;222;31;22;11;3333;1;2223;31;441;21;21;
+Reliability: 0.969887;Cost: 130.000000;Weight: 191.000000;Execution time: 17.585447;
+
+Result #117;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;11;11;222;11;22;332;11;23;132;313;3324;11;21;
+Reliability: 0.968496;Cost: 126.000000;Weight: 191.000000;Execution time: 13.479566;
+
+Result #118;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;1111;2223;31;433;12;11;23;222;31;133;212;22;
+Reliability: 0.967470;Cost: 130.000000;Weight: 191.000000;Execution time: 15.085204;
+
+Result #119;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;111;2122;23;242;31;331;22;112;133;4333;1;12;
+Reliability: 0.969733;Cost: 130.000000;Weight: 191.000000;Execution time: 15.844235;
+
+Result #120;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;11;222;333;21;333;313;332;1222;13;4344;11;21;
+Reliability: 0.977637;Cost: 130.000000;Weight: 191.000000;Execution time: 15.799142;
+
+Result #121;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3434;11;11;221;333;2214;21;312;12;212;31;141;1;21;
+Reliability: 0.964246;Cost: 124.000000;Weight: 190.000000;Execution time: 13.142673;
+
+Result #122;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3343;11;11;222;11;21;12;1233;1;122;233;411;212;41;
+Reliability: 0.964827;Cost: 127.000000;Weight: 191.000000;Execution time: 12.367259;
+
+Result #123;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;1111;11;13;22;323;311;13;212;13;431;11;422;
+Reliability: 0.965021;Cost: 130.000000;Weight: 191.000000;Execution time: 14.165047;
+
+Result #124;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;11;222;233;212;3232;11;1;11;3333;143;111;22;
+Reliability: 0.953209;Cost: 130.000000;Weight: 191.000000;Execution time: 15.308552;
+
+Result #125;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3334;11;1111;11;32;22;11;313;333;221;13;4424;11;41;
+Reliability: 0.962385;Cost: 126.000000;Weight: 191.000000;Execution time: 14.864769;
+
+Result #126;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+21;11;11;2322;313;12;11;131;1;1222;12;223;21;244;
+Reliability: 0.964888;Cost: 129.000000;Weight: 191.000000;Execution time: 12.752672;
+
+Result #127;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3343;13;111;2232;333;442;13;3133;1;211;11;114;121;1;
+Reliability: 0.964274;Cost: 130.000000;Weight: 190.000000;Execution time: 14.440026;
+
+Result #128;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3234;11;111;222;21;1;21;113;232;11;13;123;12;322;
+Reliability: 0.959395;Cost: 126.000000;Weight: 191.000000;Execution time: 12.052114;
+
+Result #129;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+332;11;11;122;233;21;11;113;21;211;1333;11;1;222;
+Reliability: 0.960697;Cost: 129.000000;Weight: 191.000000;Execution time: 13.078849;
+
+Result #130;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;131;2222;13;22;3323;3333;31;11;313;241;1;22;
+Reliability: 0.964503;Cost: 130.000000;Weight: 191.000000;Execution time: 13.915215;
+
+Result #131;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+233;11;111;222;33;21;11;1333;21;2122;133;114;1;12;
+Reliability: 0.970704;Cost: 130.000000;Weight: 191.000000;Execution time: 14.222698;
+
+Result #132;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3343;111;111;12;233;1;11;313;32;111;3313;3434;1;22;
+Reliability: 0.947621;Cost: 123.000000;Weight: 191.000000;Execution time: 13.216210;
+
+Result #133;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+323;11;121;221;333;1;12;3311;1;11;312;2434;1121;22;
+Reliability: 0.954992;Cost: 127.000000;Weight: 191.000000;Execution time: 14.028926;
+
+Result #134;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+312;11;111;221;133;421;11;113;1;111;23;131;1;242;
+Reliability: 0.962889;Cost: 130.000000;Weight: 191.000000;Execution time: 15.344063;
+
+Result #135;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+334;11;111;2222;13;22;12;3333;32;221;323;11;122;12;
+Reliability: 0.971862;Cost: 130.000000;Weight: 191.000000;Execution time: 15.647235;
+
+Result #136;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;1121;2232;323;1;11;133;21;11;11;4443;11;242;
+Reliability: 0.966215;Cost: 130.000000;Weight: 191.000000;Execution time: 12.678092;
+
+Result #137;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;11;11;2222;333;24;332;3333;333;11;22;341;12;224;
+Reliability: 0.966677;Cost: 130.000000;Weight: 191.000000;Execution time: 16.219896;
+
+Result #138;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;11;2322;23;1;11;3333;22;2122;31;114;222;21;
+Reliability: 0.965621;Cost: 125.000000;Weight: 191.000000;Execution time: 13.643328;
+
+Result #139;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+32;111;11;2222;23;42;21;313;333;11;331;11;11;244;
+Reliability: 0.953748;Cost: 129.000000;Weight: 191.000000;Execution time: 14.870137;
+
+Result #140;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+344;11;11;212;233;22;11;113;13;2222;31;123;11;242;
+Reliability: 0.975352;Cost: 130.000000;Weight: 191.000000;Execution time: 12.966619;
+
+Result #141;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;11;111;2222;11;22;11;321;31;11;13;11;121;21;
+Reliability: 0.963048;Cost: 130.000000;Weight: 190.000000;Execution time: 12.270590;
+
+Result #142;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+334;11;2111;222;12;242;11;3333;1;121;13;4423;21;222;
+Reliability: 0.970303;Cost: 130.000000;Weight: 191.000000;Execution time: 13.930883;
+
+Result #143;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;111;11;212;3333;22;11;131;32;221;131;3444;1;12;
+Reliability: 0.968949;Cost: 128.000000;Weight: 191.000000;Execution time: 15.735190;
+
+Result #144;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;11;222;3333;22;333;131;22;211;333;4344;111;22;
+Reliability: 0.977734;Cost: 129.000000;Weight: 191.000000;Execution time: 20.106432;
+
+Result #145;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;11;2222;21;21;333;313;22;121;333;143;12;222;
+Reliability: 0.976210;Cost: 130.000000;Weight: 191.000000;Execution time: 14.557626;
+
+Result #146;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;111;111;222;33;2214;22;11;32;2221;11;144;11;22;
+Reliability: 0.962563;Cost: 130.000000;Weight: 191.000000;Execution time: 13.089980;
+
+Result #147;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;111;111;11;23;222;22;311;33;222;31;441;211;22;
+Reliability: 0.954400;Cost: 121.000000;Weight: 191.000000;Execution time: 12.748852;
+
+Result #148;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3334;11;111;222;333;2222;11;332;233;11;313;3444;1;22;
+Reliability: 0.962232;Cost: 130.000000;Weight: 191.000000;Execution time: 13.587631;
+
+Result #149;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;111;123;22;11;11;123;31;11;12;131;11;222;
+Reliability: 0.970538;Cost: 130.000000;Weight: 191.000000;Execution time: 14.447553;
+
+Result #150;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;11;111;222;23;2224;233;11;22;2211;333;124;1;22;
+Reliability: 0.959881;Cost: 129.000000;Weight: 191.000000;Execution time: 15.452464;
+
+Result #151;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;11;222;21;22;2323;11;1;2222;333;4243;21;12;
+Reliability: 0.964039;Cost: 129.000000;Weight: 191.000000;Execution time: 16.936790;
+
+Result #152;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;11;1212;222;3133;22;11;11;23;222;333;143;11;12;
+Reliability: 0.968701;Cost: 128.000000;Weight: 191.000000;Execution time: 14.845377;
+
+Result #153;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+334;11;111;2322;323;2442;21;3331;13;11;21;4334;1;21;
+Reliability: 0.966034;Cost: 129.000000;Weight: 191.000000;Execution time: 15.150883;
+
+Result #154;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+13;111;1111;222;333;422;21;313;23;212;31;341;11;22;
+Reliability: 0.971681;Cost: 129.000000;Weight: 191.000000;Execution time: 14.669797;
+
+Result #155;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;111;11;222;222;12;11;3331;1;121;11;111;12;21;
+Reliability: 0.970301;Cost: 130.000000;Weight: 191.000000;Execution time: 12.859852;
+
+Result #156;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;11;212;12;11;333;11;332;11;11;4144;11;242;
+Reliability: 0.963810;Cost: 130.000000;Weight: 191.000000;Execution time: 15.341744;
+
+Result #157;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;1111;2222;21;22;13;3333;22;11;11;4444;2211;22;
+Reliability: 0.969568;Cost: 130.000000;Weight: 191.000000;Execution time: 19.384043;
+
+Result #158;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;2211;211;22;1;333;111;22;11;13;212;11;12;
+Reliability: 0.963526;Cost: 126.000000;Weight: 191.000000;Execution time: 15.075331;
+
+Result #159;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;11;111;2222;3333;1444;21;331;1;221;333;412;1;12;
+Reliability: 0.960463;Cost: 128.000000;Weight: 191.000000;Execution time: 12.638777;
+
+Result #160;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+11;111;111;2322;323;22;11;311;33;122;11;3444;1;22;
+Reliability: 0.971191;Cost: 130.000000;Weight: 191.000000;Execution time: 14.407772;
+
+Result #161;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3324;11;11;212;3233;224;12;131;31;11;333;142;111;1;
+Reliability: 0.958706;Cost: 124.000000;Weight: 191.000000;Execution time: 12.430019;
+
+Result #162;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+32;11;11;223;31;4442;21;113;33;211;31;144;11;2224;
+Reliability: 0.961777;Cost: 130.000000;Weight: 191.000000;Execution time: 16.779823;
+
+Result #163;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;1121;212;22;1;331;131;21;2222;11;414;1;12;
+Reliability: 0.962126;Cost: 130.000000;Weight: 191.000000;Execution time: 15.818232;
+
+Result #164;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+233;11;11;122;3233;22;11;131;1;112;11;3444;1212;12;
+Reliability: 0.967240;Cost: 127.000000;Weight: 191.000000;Execution time: 14.046394;
+
+Result #165;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;11;11;22;21;233;3333;341;211;333;4414;11;1;
+Reliability: 0.955724;Cost: 116.000000;Weight: 191.000000;Execution time: 14.324064;
+
+Result #166;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+3333;11;111;212;2333;224;21;3333;32;11;333;2434;11;22;
+Reliability: 0.972949;Cost: 127.000000;Weight: 191.000000;Execution time: 17.795704;
+
+Result #167;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+31;11;1111;222;233;2231;11;133;12;11;11;412;21;22;
+Reliability: 0.965220;Cost: 129.000000;Weight: 191.000000;Execution time: 15.263308;
+
+Result #168;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;11;111;222;23;222;11;133;22;221;12;141;1212;22;
+Reliability: 0.972424;Cost: 130.000000;Weight: 191.000000;Execution time: 16.148361;
+
+Result #169;
+Module# 1;Module# 2;Module# 3;Module# 4;Module# 5;Module# 6;Module# 7;Module# 8;Module# 9;Module# 10;Module# 11;Module# 12;Module# 13;Module# 14;
+333;113;111;2222;3233;22;31;133;21;211;32;11;11;22;
+Reliability: 0.971930;Cost: 130.000000;Weight: 191.000000;Execution time: 15.188403;
+

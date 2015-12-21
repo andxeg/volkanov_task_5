@@ -163,6 +163,18 @@ class ACODC(Algorithm):
     def PrintStats(self):
         #Algorithm.result_filename
         #Print results ti csv-file
+
+        #
+        goodResults = 0
+        resultFile = open("result.txt", "w")
+        for result in self.results:
+            resultFile.write("%f\n" % result["reliability"])
+            if result["reliability"] >= 0.92:
+                goodResults += 1
+        print "m = %d" % goodResults
+
+        #
+
         if self.results == []:
             return
 

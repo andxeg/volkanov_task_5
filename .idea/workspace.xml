@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d50b29c3-ddff-4d6c-aad7-b6c7cfbc700d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result1450540840.85.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ACODC/algo_config.xml" afterPath="$PROJECT_DIR$/ACODC/algo_config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ACODC/ACODC.py" afterPath="$PROJECT_DIR$/ACODC/ACODC.py" />
     </list>
     <ignored path="RelOpt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +30,8 @@
           <file leaf-file-name="ACODC.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ACODC/ACODC.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="2.0534847">
-                  <caret line="287" column="42" selection-start-line="287" selection-start-column="42" selection-end-line="287" selection-end-column="42" />
+                <state vertical-scroll-proportion="0.6126418">
+                  <caret line="173" column="36" selection-start-line="173" selection-start-column="36" selection-end-line="173" selection-end-column="36" />
                   <folding>
                     <element signature="e#0#38#0" expanded="true" />
                   </folding>
@@ -67,7 +66,7 @@
           <file leaf-file-name="Statistics.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Common/Statistics.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5299838">
+                <state vertical-scroll-proportion="0.57212317">
                   <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="9" />
                   <folding />
                 </state>
@@ -190,9 +189,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -436,7 +435,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18406375" sideWeight="0.48840803" order="0" side_tool="false" content_ui="tabs" />
@@ -868,7 +867,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Common/Statistics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5299838">
+        <state vertical-scroll-proportion="0.57212317">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="9" />
           <folding />
         </state>
@@ -876,8 +875,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ACODC/ACODC.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0534847">
-          <caret line="287" column="42" selection-start-line="287" selection-start-column="42" selection-end-line="287" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.6126418">
+          <caret line="173" column="36" selection-start-line="173" selection-start-column="36" selection-end-line="173" selection-end-column="36" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
